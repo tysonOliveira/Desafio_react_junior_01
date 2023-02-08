@@ -7,6 +7,9 @@
 }
 
 .app {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
   width: 100vw;
   height: 100vh;
 }
@@ -16,4 +19,19 @@
   height: 50px;
   border-radius: 50%;
   background-color: #b824c5;
+}
+
+button {
+  position: relative;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: chocolate;
+  color: aliceblue;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: rgb(250, 140, 61);
 }
