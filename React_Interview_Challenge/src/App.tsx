@@ -1,4 +1,4 @@
-import { MouseEventHandler, useState } from 'react';
+import { useState } from 'react';
 import './app.css';
 
 export function App() {
@@ -56,7 +56,8 @@ export function App() {
         <span
           key={index}
           className='dot'
-          style={{ left: `${item.clientX - 25}px`, top: `${item.clientY - 25}px` }} />)}
-    </div >
+          style={{ left: `${item.clientX - 25}px`, top: `${item.clientY - 25}px` }}
+        />)}
+    </div>
   )
 }
